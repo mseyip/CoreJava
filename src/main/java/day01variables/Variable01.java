@@ -8,8 +8,10 @@ public class Variable01 {
         //Example 1: Create a variable whose value is 1.99
         double priceOfShirt= 1.99;
 
-        //Data Types:
-        /*1)Integer:It is used for whole numbers.
+        /*
+        Data Types:
+
+        1)Integer:It is used for whole numbers.
             The minimum value of integers is -2,147,483,648
             The minimum value of integers is 2,147,483,648
             Integer variables use 32 bits in memory
@@ -29,7 +31,8 @@ public class Variable01 {
             The maximum value of long is 9,223,372,036,854,755,808
             long variables use 64 bits in memory
 
-         NOTE:When you select any data type, the value must be in the range of the data type*/
+         NOTE:When you select any data type, the value must be in the range of the data type
+         */
 
         int populationOfGermany=80000000;
         System.out.println(populationOfGermany);
@@ -55,10 +58,13 @@ public class Variable01 {
         float priceOfLaptop=785.99F;
         double weightOfACell=0.00000122345;
 
-        /*     Data types related, with numbers
-             byte<short<integer<long<float<double*/
+        /*
+         Data types related, with numbers
+         byte<short<integer<long<float<double
+         */
 
-        /*        2 more data types
+        /*
+         2 more data types
          1)boolean:It is for true and false answers
                 boolean uses just 1 bit in memory
          2)char:It is for just a single character
@@ -76,6 +82,7 @@ public class Variable01 {
         String is a "Non Primitive Data Type"
 
         What are the differences between "Primitive Data Types" and "Non-Primitive Data Types"?
+
         1)"Primitive Data Types" have just value but "Non Primitive Data Types" have values and methods
         2)"Primitive Data Types" were created by Java,we cannot create any primitive data type
             But we can create non-primitive data types whenever we need
@@ -84,13 +91,12 @@ public class Variable01 {
         4)Usage of memory in "Primitive Data Types" changes from data type to data type
             But all Non-Primitive Data Types use same amount of memory
 
-
          */
 
         String name="Tom Hanks";
 
         /*
-                             Memory Usage in Java
+               Memory Usage in Java
                There are 2 types of memory in Java
                1)Stack Memory: Stores i)Primitive Data 2)References(Addresses) of Non-Primitive Data
                2)Heap Memory: Stores non-primitive data
@@ -98,8 +104,7 @@ public class Variable01 {
          */
 
         //Example 1:Create an integer variable, and 2 double variables then print their sum on the console
-        //Note: If you use different numeric data types in any math operation , the result will be in the
-        //largest data type
+        //Note: If you use different numeric data types in any math operation , the result will be in the largest data type
         int shirt=21;
         double shoes=12.99,socks=3.99;
 
@@ -118,8 +123,8 @@ public class Variable01 {
         System.out.println(c1+i1);
 
         //Example 4:Create a String variable and 2 integer variables and try to do addition operation with them
-       String s="Tom";
-       int i=12,k=23;
+        String s="Tom";
+        int i=12,k=23;
         System.out.println(s+i+k);
 
         //What if I want to see Tom35
