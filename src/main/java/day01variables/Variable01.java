@@ -84,7 +84,7 @@ public class Variable01 {
         4)Usage of memory in "Primitive Data Types" changes from data type to data type
             But all Non-Primitive Data Types use same amount of memory
 
-            
+
          */
 
         String name="Tom Hanks";
