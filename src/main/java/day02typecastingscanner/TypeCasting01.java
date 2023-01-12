@@ -8,16 +8,19 @@ public class TypeCasting01 {
         System.out.println(i+k+s);
         System.out.println(s+i*k);
 
-        /*          Order of Operations in Math
+        /*
+        Order of Operations in Math
         1)Calculate the exponential,
         2)Do the operations inside the parenthesis,
         3)Do multiplications and divisions,
-        4)Do additions and subtractions   */
+        4)Do additions and subtractions
+        */
 
         int result=3-2*(5+2*3)/11;
         System.out.println(result);
 
-        /*          Type Casting
+        /*
+        Type Casting
         Autowidening;
         Java can put small data types into large data types automatically,
         When you put small data type into a large data type,you are widening the small data type
@@ -28,8 +31,9 @@ public class TypeCasting01 {
 
         double d=m;
         System.out.println(d);
-        /*      Explicit Narrowing
-                Java does not put large data types into small data types
+        /*
+        Explicit Narrowing
+        Java does not put large data types into small data types
         */
         int n=15;
         byte b=(byte)n;
