@@ -37,7 +37,7 @@ public class StringManipulations01 {
             Example 2: Swap the integers
                        a=12    b=23    ==>    a=23    b=12
         */
-        
+
         int a = 12, b=23;
 
         //1.Way: We used third variable
